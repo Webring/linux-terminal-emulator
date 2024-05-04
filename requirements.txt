@@ -1,0 +1,13 @@
+altgraph==0.17.4
+attrs==23.2.0
+cmd2==2.4.3
+packaging==24.0
+pefile==2023.2.7
+pyinstaller==6.6.0
+pyinstaller-hooks-contrib==2024.5
+pyperclip==1.8.2
+pyreadline3==3.4.1
+pywin32==306
+pywin32-ctypes==0.2.2
+setuptools==69.5.1
+wcwidth==0.2.13
