@@ -41,7 +41,7 @@ class LinuxTerminalEmulator(cmd2.Cmd):
         self.aliases.update({'ll': 'ls -l'})
         self.aliases.update({'la': 'ls -a'})
         self.aliases.update({'exit': 'quit'})
-        self.aliases.update({'source ': 'run_script'})
+        self.aliases.update({'source': 'run_script'})
 
         user_permissions_symbol = "#" if is_admin() else "$"
         self.prompt = f"{os.getlogin()}@{platform.node()}{user_permissions_symbol} "
